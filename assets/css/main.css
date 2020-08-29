@@ -2071,11 +2071,11 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px rgba(255, 255, 255, 0.5);
-				color: #fff;
+				border: solid 3px #ffbf0f;
+				color: #000000;
 				content: 'View Repository';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: 1.0em;
 				font-weight: 400;
 				left: 45%;
 				line-height: 2.25em;
@@ -2591,7 +2591,7 @@ input, select, textarea {
 		-webkit-justify-content: space-between;
 		-ms-justify-content: space-between;
 		justify-content: space-between;
-		background-color: #080605;
+		background-color: #49372B;
 		background-attachment: scroll,								scroll;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -2624,7 +2624,8 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffffff;
+			color: #ffbf0f;
+			font-size: 1.37em;
 		}
 
 		#header h2, #header h3, #header h4, #header h5, #header h6 {
@@ -2632,7 +2633,7 @@ input, select, textarea {
 		}
 
 		#header h1 {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 0.9);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
