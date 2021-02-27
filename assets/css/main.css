@@ -111,13 +111,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #ffbf0f;
+		color: #996600;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffbf0f !important;
+			color: #996600 !important;
 			text-decoration: none;
 		}
 
@@ -1841,7 +1841,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #ffbf0f;
+			border-color: #996600;
 		}
 
 	select {
@@ -1946,7 +1946,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #ffbf0f;
+			border-color: #996600;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2071,13 +2071,14 @@ input, select, textarea {
 				-ms-transition: opacity 0.2s ease-in-out;
 				transition: opacity 0.2s ease-in-out;
 				border-radius: 0.35em;
-				border: solid 3px #ffbf0f;
-				color: #000000;
+				border: solid 3px #787878;
+				color: #787878 !important;
+				background-color: #f7f7f7;
 				content: 'View Repository';
 				display: inline-block;
 				font-size: 1.0em;
 				font-weight: 400;
-				left: 45%;
+				left: 41%;
 				line-height: 2.25em;
 				margin: -1.25em 0 0 -3em;
 				opacity: 0;
@@ -2464,7 +2465,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #ffbf0f;
+			border-color: #996600;
 			color: #787878 !important;
 		}
 
@@ -2473,8 +2474,8 @@ input, select, textarea {
 		input[type="button"]:active,
 		.button:active {
 			background-color: rgba(73, 191, 157, 0.1);
-			border-color: #ffbf0f;
-			color: #ffbf0f !important;
+			border-color: #996600;
+			color: #996600 !important;
 		}
 
 		input[type="submit"].icon,
@@ -2517,8 +2518,8 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #ffbf0f;
-			border-color: #ffbf0f;
+			background-color: #996600;
+			border-color: #996600;
 			color: #ffffff !important;
 		}
 
@@ -2624,7 +2625,7 @@ input, select, textarea {
 		}
 
 		#header strong, #header b {
-			color: #ffbf0f;
+			color: #996600;
 			font-size: 1.37em;
 		}
 
